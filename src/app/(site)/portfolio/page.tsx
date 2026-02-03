@@ -36,7 +36,7 @@ const PortfolioListPage = () => {
         {
             title: "Blog Platform",
             image: "/images/sample/blog.jpg",
-            link: "kugankuganesh.github.io/kworld/",
+            link: "https://kugankuganesh.github.io/kworld/",
             description: "A modern blog platform with custom CMS features using Next js and Api, Blogs posts comming from blogger website.",
         },
     ];
