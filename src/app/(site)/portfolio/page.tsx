@@ -20,24 +20,36 @@ const PortfolioListPage = () => {
             image: "/images/sample/ecommerce.jpg",
             link: "https://fg.empowerdigitaldata.com/",
             description: "A fully responsive e-commerce website with WooCommerce integration.",
+            alt:"food order",
         },
         {
             title: "Food Ordering and delivery System",
             image: "/images/sample/corporate.jpg",
             link: "https://patisserie-rolland.empowerdigitaldata.com/",
             description: "A clean and professional e-commerce website with WooCommerce integration for a corporate business.",
+             alt:"food order",
         },
         {
-            title: "Portfolio Showcase",
-            image: "/images/sample/portfolio.jpg",
+            title: "Portfolio Showcase in next js",
+            image: "/images/portfolio/portfolio.png",
             link: "https://kugankuganesh.github.io/2025.github.io/",
-            description: "A personal portfolio website to showcase creative works using React js.",
+            description: "A personal portfolio website to showcase creative works using next js.",
+             alt:"food order",
         },
         {
-            title: "Blog Platform",
-            image: "/images/sample/blog.jpg",
+            title: "Blog Platform in next js",
+            image: "/images/portfolio/blogk.png",
             link: "https://kugankuganesh.github.io/kworld/",
             description: "A modern blog platform with custom CMS features using Next js and Api, Blogs posts comming from blogger website.",
+             alt:"food order",
+        },
+
+         {
+            title: "Food Ordering System in React js",
+            image: "/images/portfolio/food.png",
+            link: "https://kugankuganesh.github.io/FoodDelivery/",
+            description: "A modern website  features using React js. When you went to the website and click the home option in nav bar.",
+             alt:"food order",
         },
     ];
 
@@ -80,6 +92,16 @@ const PortfolioListPage = () => {
                                         <h3 className="text-xl font-bold text-midnight_text dark:text-white group-hover:text-primary transition-colors">
                                             {site.title}
                                         </h3>
+                                         <div className='relative w-full h-64 overflow-hidden rounded-xl bg-gray-100 dark:bg-darklight'>
+                                                            <Image
+                                                              src={site.image}
+                                                              alt={site.alt}
+                                                              fill
+                                                              sizes='(max-width: 768px) 100vw, 33vw'
+                                                              className='object-cover transition-transform duration-500 ease-out group-hover:scale-110'
+                                                              draggable={false}
+                                                            />
+                                                          </div>
                                         <p className="text-gray-600 dark:text-white/50 mt-2 text-sm">
                                             {site.description}
                                         </p>
