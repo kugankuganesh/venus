@@ -55,7 +55,7 @@ const PortfolioListPage = () => {
           {
             title: "Grocery Ordering System in React js with Strapi",
             image: "/images/portfolio/grofront.png",
-            // link: "https://kugankuganesh.github.io/FoodDelivery/",
+            link: "",
             description: "A modern website  features using React js. for frontend and the Strapi using for admin page",
              alt:"food order",
         },
