@@ -17,14 +17,14 @@ const PortfolioListPage = () => {
     const sampleWebsites = [
         {
             title: "Food Ordering System",
-            image: "/images/sample/ecommerce.jpg",
+            image: "/images/portfolio/fg.png",
             link: "https://fg.empowerdigitaldata.com/",
             description: "A fully responsive e-commerce website with WooCommerce integration.",
             alt:"food order",
         },
         {
             title: "Food Ordering and delivery System",
-            image: "/images/sample/corporate.jpg",
+            image: "/images/portfolio/pat.png",
             link: "https://patisserie-rolland.empowerdigitaldata.com/",
             description: "A clean and professional e-commerce website with WooCommerce integration for a corporate business.",
              alt:"food order",
@@ -49,6 +49,14 @@ const PortfolioListPage = () => {
             image: "/images/portfolio/food.png",
             link: "https://kugankuganesh.github.io/FoodDelivery/",
             description: "A modern website  features using React js. When you went to the website and click the home option in nav bar.",
+             alt:"food order",
+        },
+
+          {
+            title: "Grocery Ordering System in React js with Strapi",
+            image: "/images/portfolio/grofront.png",
+            // link: "https://kugankuganesh.github.io/FoodDelivery/",
+            description: "A modern website  features using React js. for frontend and the Strapi using for admin page",
              alt:"food order",
         },
     ];
