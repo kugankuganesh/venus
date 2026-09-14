@@ -4,6 +4,8 @@ import HeroSub from "@/components/SharedComponent/HeroSub";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { getImgPath } from "@/utils/image";
+import VideoWork from "@/components/SharedComponent/VideoWork";
 export const metadata: Metadata = {
     title: "Portfolio ",
 };
@@ -17,46 +19,46 @@ const PortfolioListPage = () => {
     const sampleWebsites = [
         {
             title: "Food Ordering System",
-            image: "/venus/images/portfolio/fg.png",
+            image: getImgPath("/images/portfolio/fg.png"),
             link: "https://fg.empowerdigitaldata.com/",
             description: "A fully responsive e-commerce website with WooCommerce integration.",
             alt:"food order",
         },
         {
             title: "Food Ordering and delivery System",
-            image: "/venus/images/portfolio/pat.png",
+            image: getImgPath("/images/portfolio/pat.png"),
             link: "https://patisserie-rolland.empowerdigitaldata.com/",
             description: "A clean and professional e-commerce website with WooCommerce integration for a corporate business.",
              alt:"food order",
         },
         {
-            title: "Portfolio Showcase in next js",
-            image: "/venus/images/portfolio/portfolio.png",
+            title: "Portfolio Showcase in Next.js",
+            image: getImgPath("/images/portfolio/portfolio.png"),
             link: "https://kugankuganesh.github.io/2025.github.io/",
-            description: "A personal portfolio website to showcase creative works using next js.",
+            description: "A personal portfolio website built with Next.js to showcase professional work.",
              alt:"food order",
         },
         {
-            title: "Blog Platform in next js",
-            image: "/venus/images/portfolio/blogk.png",
+            title: "Blog Platform in Next.js",
+            image: getImgPath("/images/portfolio/blogk.png"),
             link: "https://kugankuganesh.github.io/kworld/",
-            description: "A modern blog platform with custom CMS features using Next js and Api, Blogs posts comming from blogger website.",
+            description: "A modern Next.js blog platform with API-driven content sourced from Blogger.",
              alt:"food order",
         },
 
          {
-            title: "Food Ordering System in React js",
-            image: "/venus/images/portfolio/food.png",
+            title: "Food Ordering System in React.js",
+            image: getImgPath("/images/portfolio/food.png"),
             link: "https://kugankuganesh.github.io/FoodDelivery/",
-            description: "A modern website  features using React js. When you went to the website and click the home option in nav bar.",
+            description: "A responsive food ordering interface built with React.js.",
              alt:"food order",
         },
 
           {
-            title: "Grocery Ordering System in React js with Strapi",
-            image: "/venus/images/portfolio/grofront.png",
-            link: "",
-            description: "A modern website  features using React js. for frontend and the Strapi using for admin page",
+            title: "Grocery Ordering System with React.js and Strapi",
+            image: getImgPath("/images/portfolio/grofront.png"),
+            link: "https://github.com/kugankuganesh/grocery_fronten",
+            description: "A React.js storefront paired with Strapi for content and administration.",
              alt:"food order",
         },
     ];
@@ -84,10 +86,10 @@ const PortfolioListPage = () => {
                             </span>
                         </div>
                         <h2 className="text-4xl font-bold text-midnight_text dark:text-white mb-4">
-                            Explore Some of My Work
+                            Web Applications & Client Projects
                         </h2>
                         <p className="text-gray-600 dark:text-white/60 max-w-2xl mx-auto">
-                            Check out a few of my sample websites that demonstrate responsive design, functionality, and clean user experience.
+                            Explore selected Next.js, React.js, and WordPress projects demonstrating responsive design, API integration, e-commerce workflows, and practical user experiences.
                         </p>
                     </div>
 
@@ -120,6 +122,8 @@ const PortfolioListPage = () => {
                     </div>
                 </div>
             </section>
+
+            <VideoWork />
         </>
     );
 };

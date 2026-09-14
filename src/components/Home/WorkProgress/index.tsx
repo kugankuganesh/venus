@@ -47,17 +47,18 @@ const Progresswork = ({ isColorMode }: { isColorMode: Boolean }) => {
             <div className='flex gap-2 items-center'>
               <span className='w-3 h-3 rounded-full bg-success'></span>
               <span className='font-medium text-midnight_text text-sm dark:text-white/50'>
-                build everything
+                Professional Summary
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-midnight_text dark:text-white mb-6 leading-tight">
-              Turning ideas into scalable digital products
+              Scalable software built for real business needs
             </h2>
 
             <p className='text-gray dark:text-white/70 text-base font-semibold'>
-               We focus on building fast, secure, and scalable web solutions.
-              From user experience to backend architecture, our process ensures
-              high-quality results that support real business growth.
+              I collaborate with cross-functional teams to deliver optimized,
+              responsive, and robust enterprise software solutions. My work
+              spans frontend experiences, backend architecture, integrations,
+              databases, and deployment operations.
             </p>
 
             <div className='block mx-auto pt-12'>

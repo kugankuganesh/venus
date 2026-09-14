@@ -24,10 +24,10 @@ const ExperienceSection = () => {
           <h2 className='text-4xl font-bold text-midnight_text dark:text-white mt-3'>
             Work & Professional Journey
           </h2>
-          <p className='text-gray-600 dark:text-white/60 max-w-3xl mx-auto mt-4'>
-            Experienced PHP Developer with 5+ years of expertise in Laravel and
-            CodeIgniter, currently transitioning into Full Stack 
-            development by building scalable, modern web applications.
+            <p className='text-gray-600 dark:text-white/60 max-w-3xl mx-auto mt-4'>
+              Full-Stack Developer with 5+ years of experience building scalable,
+              high-performance web and mobile applications, secure RESTful APIs,
+              and integrated enterprise software solutions.
           </p>
         </div>
 
@@ -41,32 +41,34 @@ const ExperienceSection = () => {
                 Software Engineer
               </h3>
               <span className='text-sm text-gray-500 dark:text-white/50'>
-                Sep 2024 – Present · Colombo, Sri Lanka
+                Sep 2024 – 14 Aug 2026 · Colombo, Sri Lanka
               </span>
             </div>
             <p className='text-primary font-medium mb-4'>
-              NSOFT Solutions
+              NsoftIT Solutions
             </p>
             <ul className='list-disc pl-5 space-y-2 text-gray-600 dark:text-white/70'>
               <li>
-               Managing server-side operations on cPanel and VPS, including 
-              deployment.
+                Managed VPS and cPanel server-side operations, including
+                automated deployment and routine maintenance of high-availability
+                Laravel applications.
               </li>
               <li>
-                Designed scalable database architectures and optimized system performance.
+                Led full-stack development using Laravel, CodeIgniter, and React
+                across multiple enterprise client projects.
               </li>
               <li>
-                Customized business workflows to meet specific customer requirements.
+                Developed and maintained React Native mobile applications,
+                including APK builds and platform deployment.
               </li>
               <li>
-                Configuration, and maintenance of Laravel applications.
+                Engineered custom WordPress plugins, including Uber integration,
+                subscription services, WooCommerce extensions, and interactive
+                calendars.
               </li>
                <li>
-                Leading backend and frontend development using CodeIgniter, Laravel 
-                and React for multiple  projects.
-              </li>
-               <li>
-                Code merging and Deployment using GIT.
+                Standardized version control procedures and CI workflow pipelines
+                using Git.
               </li>
             </ul>
           </div>
@@ -86,10 +88,12 @@ const ExperienceSection = () => {
             </p>
             <ul className='list-disc pl-5 space-y-2 text-gray-600 dark:text-white/70'>
               <li>
-                Developed business-focused web solutions using Laravel and React.
+                Developed and maintained third-party integrations for Xero and
+                Shopify APIs using Laravel and React.
               </li>
               <li>
-                Built a garment industry system integrating Shopify and Xero APIs.
+                Optimized application performance and built automated unit tests,
+                reducing production errors by 20%.
               </li>
               
             </ul>
@@ -110,10 +114,15 @@ const ExperienceSection = () => {
             </p>
             <ul className='list-disc pl-5 space-y-2 text-gray-600 dark:text-white/70'>
               <li>
-                Worked on multiple enterprise projects using Laravel, Yii, and CodeIgniter.
+                Engineered secure, high-throughput RESTful APIs and backend
+                micro-architectures using Laravel, CodeIgniter, and Yii.
               </li>
               <li>
-                Built scalable backend services and optimized existing systems.
+                Designed and maintained optimized MySQL schemas and complex queries.
+              </li>
+              <li>
+                Collaborated with cross-functional teams to deliver scalable
+                enterprise software solutions.
               </li>
             </ul>
           </div>
@@ -122,7 +131,7 @@ const ExperienceSection = () => {
           <div className='bg-white dark:bg-darkmode p-8 rounded-xl shadow-service'>
             <div className='flex justify-between flex-wrap gap-3 mb-4'>
               <h3 className='text-xl font-bold text-midnight_text dark:text-white'>
-                Web Developer (Laravel & WordPress)
+                Software Engineer
               </h3>
               <span className='text-sm text-gray-500 dark:text-white/50'>
                 Mar 2022 – Nov 2022 · Colombo, Sri Lanka
@@ -133,10 +142,12 @@ const ExperienceSection = () => {
             </p>
             <ul className='list-disc pl-5 space-y-2 text-gray-600 dark:text-white/70'>
               <li>
-                Developed Laravel frontend features and WordPress-based solutions.
+                Architected and developed a full-stack automated student
+                management platform using Laravel and modern web technologies.
               </li>
               <li>
-                Participated in full product lifecycle: development, testing, deployment, and maintenance.
+                Delivered features across development, testing, deployment, and
+                maintenance while supporting business requirements.
               </li>
             </ul>
           </div>
@@ -145,7 +156,7 @@ const ExperienceSection = () => {
           <div className='bg-white dark:bg-darkmode p-8 rounded-xl shadow-service'>
             <div className='flex justify-between flex-wrap gap-3 mb-4'>
               <h3 className='text-xl font-bold text-midnight_text dark:text-white'>
-                Web Developer (PHP & WordPress)
+                Software Engineer
               </h3>
               <span className='text-sm text-gray-500 dark:text-white/50'>
                 Jan 2019 – Apr 2022 · Batticaloa, Sri Lanka
@@ -156,10 +167,12 @@ const ExperienceSection = () => {
             </p>
             <ul className='list-disc pl-5 space-y-2 text-gray-600 dark:text-white/70'>
               <li>
-                Developed WordPress websites and PHP-based applications.
+                Developed custom Laravel web applications and tailored WordPress
+                ecosystem solutions.
               </li>
               <li>
-                Mentored junior developers and coordinated training programs.
+                Supported digital transformation initiatives through practical,
+                business-focused software delivery.
               </li>
             </ul>
           </div>
@@ -168,10 +181,10 @@ const ExperienceSection = () => {
           <div className='bg-white dark:bg-darkmode p-8 rounded-xl shadow-service'>
             <div className='flex justify-between flex-wrap gap-3 mb-4'>
               <h3 className='text-xl font-bold text-midnight_text dark:text-white'>
-                Odoo Consultant
+                Odoo Developer
               </h3>
               <span className='text-sm text-gray-500 dark:text-white/50'>
-                Jan 2019 – Apr 2022 · Colombo, Sri Lanka
+                Jan 2018 – Jul 2018 · Colombo, Sri Lanka
               </span>
             </div>
             <p className='text-primary font-medium mb-4'>
@@ -179,10 +192,8 @@ const ExperienceSection = () => {
             </p>
             <ul className='list-disc pl-5 space-y-2 text-gray-600 dark:text-white/70'>
               <li>
-                Developed custom ERP modules based on client requirements.
-              </li>
-              <li>
-                Supported CMS team with WordPress development tasks.
+                Customized and built tailored Odoo ERP modules to match exact
+                functional requirements and client specifications.
               </li>
             </ul>
           </div>

@@ -29,49 +29,52 @@ export const count = [
 
 export const Progress = [
   { title: 'Full Stack Development', Progress: 95 },
-  { title: 'UX Research & Testing', Progress: 90 },
-  { title: 'Product Management', Progress: 85 },
-  { title: 'UI & Visual Design', Progress: 92 },
-  { title: 'SEO & Web Optimization', Progress: 88 },
-  { title: 'WordPress & WooCommerce', Progress: 90 },
-  { title: 'PHP & Laravel', Progress: 95 },
-  { title: 'React & TypeScript', Progress: 85 },
+  { title: 'React.js, Next.js & JavaScript', Progress: 90 },
+  { title: 'Laravel, Node.js & Express.js', Progress: 95 },
+  { title: 'Nest.js, CodeIgniter & Yii', Progress: 88 },
+  { title: 'RESTful APIs & Integrations', Progress: 92 },
+  { title: 'WordPress Custom Plugins', Progress: 94 },
+  { title: 'WooCommerce & E-Commerce', Progress: 90 },
+  { title: 'MySQL, PostgreSQL & MongoDB', Progress: 88 },
+  { title: 'Git, CI/CD & VPS Deployment', Progress: 84 },
+  { title: 'React Native Mobile Development', Progress: 80 },
+  { title: 'Odoo ERP Customization', Progress: 82 },
 ];
 
 
 export const Servicebox = [
   {
-    icon: getImgPath('/images/services/web-development.svg'),
+    icon: getImgPath('/images/services/perfomance-optimization.svg'),
     title: 'Web Development',
     description:
       'Building responsive, high-performance websites using modern frameworks like React, Laravel, and WordPress.',
   },
   {
-    icon: getImgPath('/images/services/ux-ui-design.svg'),
+    icon: getImgPath('/images/services/ux-design-product_1.svg'),
     title: 'UX & UI Design',
     description:
       'Creating user-friendly interfaces and seamless experiences through research, wireframing, and prototyping.',
   },
   {
-    icon: getImgPath('/images/services/e-commerce.svg'),
+    icon: getImgPath('/images/services/ux-design-product_2.svg'),
     title: 'E-Commerce Solutions',
     description:
       'Developing custom online stores with WooCommerce, Shopify integrations, and secure payment systems.',
   },
   {
-    icon: getImgPath('/images/services/seo.svg'),
+    icon: getImgPath('/images/services/perfomance-optimization.svg'),
     title: 'SEO & Optimization',
     description:
       'Improving search engine visibility, page speed, and overall web performance for higher conversions.',
   },
   {
-    icon: getImgPath('/images/services/project-management.svg'),
+    icon: getImgPath('/images/services/ux-design-product_1.svg'),
     title: 'Project Management',
     description:
       'Efficiently managing web development projects, Agile workflows, and team collaboration for timely delivery.',
   },
   {
-    icon: getImgPath('/images/services/maintenance.svg'),
+    icon: getImgPath('/images/services/perfomance-optimization.svg'),
     title: 'Website Maintenance',
     description:
       'Ensuring websites stay up-to-date, secure, and fully optimized with regular maintenance and updates.',

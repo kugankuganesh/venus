@@ -16,18 +16,16 @@ const Hero = () => {
           <div className='flex gap-2 items-center'>
             <span className='w-3 h-3 rounded-full bg-success'></span>
             <span className='font-medium text-midnight_text text-sm dark:text-white/50'>
-              build everything
+              Full-Stack Developer
             </span>
           </div>
           <h1 className="text-midnight_text font-bold dark:text-white text-3xl md:text-4xl leading-tight">
-            Full Stack Developer Building Scalable Web & Business Systems.
+            Full-Stack Developer Building Scalable Web & Business Systems
 
           </h1>
           <p className="text-grey dark:text-white/70 text-lg font-normal leading-relaxed">
 
-            I design and develop high-performance web applications, eCommerce platforms, and custom business software using Laravel, React, Next.js, WordPress, and Odoo.
-
-            Helping startups and companies turn ideas into reliable digital products.
+            Full-Stack Developer with 5+ years of experience specializing in WordPress, Laravel, and React.js. I build scalable, high-performance web and mobile applications, secure RESTful APIs, and reliable integrations for growing businesses.
 
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -44,6 +42,27 @@ const Hero = () => {
             >
               Hire Me
             </Link>
+          </div>
+
+          <div className='flex flex-wrap gap-2 pt-2' aria-label='Core skills'>
+            {[
+              'Laravel',
+              'React',
+              'Next.js',
+              'JavaScript ES6+',
+              'TypeScript',
+              'WordPress',
+              'RESTful APIs',
+              'Odoo',
+              'WooCommerce',
+              'CI/CD',
+            ].map((keyword) => (
+              <span
+                key={keyword}
+                className='rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700 dark:border-blue-400/30 dark:bg-blue-400/10 dark:text-blue-200'>
+                {keyword}
+              </span>
+            ))}
           </div>
 
           {/* <div className='flex items-center mt-12 gap-4'>
